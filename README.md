@@ -1,2 +1,99 @@
-# eBayChecker
-A Python script that notifies you by email when items are listed on eBay.
+
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
+  <a href="https://github.com/othneildrew/Best-README-Template">
+    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  </a>
+
+  <h3 align="center">eBayC</h3>
+
+  <p align="center">
+    An automated eBay listing notification system
+    <br />
+    <a href="https://github.com/Mostafaafr/ebayChecker"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://github.com/Mostafaafr/ebayChecker/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/Mostafaafr/ebayChecker/issues">Request Feature</a>
+  </p>
+</p>
+
+
+
+<!-- TABLE OF CONTENTS -->
+## Table of Contents
+
+* [About the Project](#about-the-project)
+  * [Built With](#built-with)
+* [Getting Started](#getting-started)
+* [Usage](#usage)
+
+
+
+
+<!-- ABOUT THE PROJECT -->
+## About The Project
+
+I buy Pokemon cards on eBay, and with everything in the world moving online, I found myself stuck on eBay more and more. I noticed I kept missing out on cheap cards that were listed because people were buying them within ten minutes, so I wrote a script that alerts me when cards (or anything else) within my price range are listed. 
+
+Of course this doesn't mean I see all cards that are listed in time to buy them, but it has helped me significantly in jumping on deals I would have certainly missed.
+
+### Built With
+This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
+* [ebaySDK](https://getbootstrap.com)
+* [ezgmail](https://jquery.com)
+
+
+<!-- GETTING STARTED -->
+## Getting Started
+
+1. Make an eBay developer account at [https://developer.ebay.com/] (This could take a few days to get approved)
+
+2. Generate an API key
+
+3. Clone the repo
+```sh
+git clone https://github.com/Mostafaafr/ebayChecker.git
+```
+4. Install the ebaysdk by doing
+```sh
+pip install ebaysdk
+```
+5. Install the ezgmail API and generate a token using the steps here: [https://ezgmail.readthedocs.io/en/latest/]
+
+6. Enter your API key in `ebay.yaml`
+
+7. Go into the script and replace the 'youremailhere@gmail.com' at the bottom of the script with your email adress.
+
+8.  Finally, go into `itemNames.json` and enter the name, minimum price, maximum price, and listing type (i.e. FixedPrice or Auction) for whatever items you want to be notified about. 
+
+9. And now you're ready to run the script as often as you like using your favorite task scheduler! I personally recommend cron if you are on linux. Keep in mind, the ebay API allows a maximum of 5000 api calls a day, and each item counts as a separate call, so make sure you are not running it too frequently. For reference, one item can be checked every 20 seconds, two every 40 seconds and so on. I recommend you schedule the task to stop whenever your normal sleeping hours are in order to save API calls. 
+
+
+
+
+<!-- USAGE EXAMPLES -->
+## Usage
+
+Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+
+_For more examples, please refer to the [Documentation](https://example.com)_
+
+
+
+
+<!-- LICENSE -->
+## License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+
+
+<!-- CONTACT -->
+## Contact
+
+Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
+
+Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
