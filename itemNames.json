@@ -1,0 +1,8 @@
+[
+	{
+		"name": "Pokemon Shiny Charizard V",
+		"minPrice": 300,
+		"maxPrice": 450,
+		"listing": "FixedPrice"
+	}
+]
