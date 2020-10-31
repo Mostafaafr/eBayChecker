@@ -1,26 +1,5 @@
-
-<!-- PROJECT LOGO -->
-<br />
-<p align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a>
-
-  <h3 align="center">eBayC</h3>
-
-  <p align="center">
-    An automated eBay listing notification system
-    <br />
-    <a href="https://github.com/Mostafaafr/ebayChecker"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/Mostafaafr/ebayChecker/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/Mostafaafr/ebayChecker/issues">Request Feature</a>
-  </p>
-</p>
-
-
+<h1> eBayChecker</h1>
+<p> A Python script that notifies you by email when items are listed </p>
 
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
@@ -61,15 +40,19 @@ git clone https://github.com/Mostafaafr/ebayChecker.git
 ```sh
 pip install ebaysdk
 ```
+and then download the ebaysdk files from [https://github.com/timotheus/ebaysdk-python]
+
 5. Install the ezgmail API and generate a token using the steps here: [https://ezgmail.readthedocs.io/en/latest/]
 
-6. Enter your API key in `ebay.yaml`
+6. Merge  all the files from the ebaysdk and ezgmail repo's to the folder containing the eBaychecker files
 
-7. Go into the script and replace the 'youremailhere@gmail.com' at the bottom of the script with your email adress.
+7. Enter your API key in the `ebay.yaml` file included with the ebaysdk
 
-8.  Finally, go into `itemNames.json` and enter the name, minimum price, maximum price, and listing type (i.e. FixedPrice or Auction) for whatever items you want to be notified about. 
+8. Go into the script and replace the 'youremailhere@gmail.com' at the bottom of the script with your email adress.
 
-9. And now you're ready to run the script as often as you like using your favorite task scheduler! I personally recommend cron if you are on linux. Keep in mind, the ebay API allows a maximum of 5000 api calls a day, and each item counts as a separate call, so make sure you are not running it too frequently. For reference, one item can be checked every 20 seconds, two every 40 seconds and so on. I recommend you schedule the task to stop whenever your normal sleeping hours are in order to save API calls. 
+9.  Finally, go into `itemNames.json` and enter the name, minimum price, maximum price, and listing type (i.e. FixedPrice or Auction) for whatever items you want to be notified about. 
+
+10. And now you're ready to run the script as often as you like using your favorite task scheduler! I personally recommend cron if you are on linux. Keep in mind, the ebay API allows a maximum of 5000 api calls a day, and each item counts as a separate call, so make sure you are not running it too frequently. For reference, one item can be checked every 20 seconds, two every 40 seconds and so on. I recommend you schedule the task to stop whenever your normal sleeping hours are in order to save API calls. 
 
 
 
@@ -77,23 +60,14 @@ pip install ebaysdk
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-o9xX077SRI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-
-
-
-<!-- LICENSE -->
-## License
-
-Distributed under the MIT License. See `LICENSE` for more information.
 
 
 
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
+Made by Mostafa Afr 
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+Project Link: [https://github.com/Mostafaafr/eBayChecker]
