@@ -15,12 +15,11 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-I buy Pokemon cards on eBay, and with everything in the world moving online, I found myself stuck on eBay more and more. I noticed I kept missing out on cheap cards that were listed because people were buying them within ten minutes, so I wrote a script that alerts me when cards (or anything else) within my price range are listed. 
+I buy Pokémon cards on eBay, and with everything in the world moving online, I found myself stuck on eBay more and more. I noticed I kept missing out on cheap cards that were listed because people were buying them within ten to fifteen minutes, so I wrote a script that alerts me when cards (or anything else) within my price range are listed. 
 
 Of course this doesn't mean I see all cards that are listed in time to buy them, but it has helped me significantly in jumping on deals I would have certainly missed.
 
 ### Built With
-This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 * [Python](https://www.python.org/)
 * [ebaysdk](https://github.com/timotheus/ebaysdk-python)
 * [ezgmail](https://ezgmail.readthedocs.io/en/latest/)
