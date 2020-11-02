@@ -21,16 +21,17 @@ Of course this doesn't mean I see all cards that are listed in time to buy them,
 
 ### Built With
 This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-* [ebaySDK](https://getbootstrap.com)
-* [ezgmail](https://jquery.com)
+* [Python](https://www.python.org/)
+* [ebaysdk](https://github.com/timotheus/ebaysdk-python)
+* [ezgmail](https://ezgmail.readthedocs.io/en/latest/)
 
 
 <!-- GETTING STARTED -->
 ## Getting Started
 
-1. Make an eBay developer account at [https://developer.ebay.com/] (This could take a few days to get approved)
+1. Make an eBay developer account at [https://developer.ebay.com/] (This could take a few days to get approved).
 
-2. Generate an API key
+2. Generate an API key.
 
 3. Clone the repo
 ```sh
@@ -40,13 +41,13 @@ git clone https://github.com/Mostafaafr/ebayChecker.git
 ```sh
 pip install ebaysdk
 ```
-and then download the ebaysdk files from [https://github.com/timotheus/ebaysdk-python]
+and then clone the repo or download the ebaysdk files from [https://github.com/timotheus/ebaysdk-python].
 
-5. Install the ezgmail API and generate a token using the steps here: [https://ezgmail.readthedocs.io/en/latest/]
+5. Install the ezgmail API and generate a token using the steps found [here](https://ezgmail.readthedocs.io/en/latest/).
 
-6. Merge  all the files from the ebaysdk and ezgmail repo's to the folder containing the eBaychecker files
+6. Merge  all the files from the ebaysdk and ezgmail repo's to the folder containing the eBaychecker files.
 
-7. Enter your API key in the `ebay.yaml` file included with the ebaysdk
+7. Enter your API key in the `ebay.yaml` file included with the ebaysdk.
 
 8. Go into the script and replace the 'youremailhere@gmail.com' at the bottom of the script with your email adress.
 
@@ -59,8 +60,7 @@ and then download the ebaysdk files from [https://github.com/timotheus/ebaysdk-p
 
 <!-- USAGE EXAMPLES -->
 ## Usage
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/-o9xX077SRI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+A Youtube explanation and demonstration of the script: https://youtu.be/lKH3mCiL5x0
 
 
 
