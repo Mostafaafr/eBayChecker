@@ -40,7 +40,7 @@ git clone https://github.com/Mostafaafr/ebayChecker.git
 ```sh
 pip install ebaysdk
 ```
-and then clone the repo or download the ebaysdk files from [https://github.com/timotheus/ebaysdk-python].
+and then clone the ebaysdk repo or download the files from [https://github.com/timotheus/ebaysdk-python].
 
 5. Install the ezgmail API and generate a token using the steps found [here](https://ezgmail.readthedocs.io/en/latest/).
 
